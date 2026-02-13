@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excited</title>
+    <style>
+    body {
+        display: flex;
+             flex-direction: column; /* Stacks items vertically */
+             align-items: center;    /* Centers items horizontally */
+             justify-content: center;
+             height: 100vh;
+             gap: 10px; 
+             margin:0;
+             overflow: hidden;
+             background:pink;
+             text-align: center;
+             margin-top: 100px;
+    }
+
+    img {
+      width: 300px;
+      animation: jump 1s infinite;
+    }
+    button{
+        font-size: medium;
+        background-color: yellow;
+        cursor: pointer;
+
+    }
+
+    /* Jump animation */
+    @keyframes jump {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-40px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+<div class="image">
+   <img src="Excited.jpeg">
+    <a href="secret3.html"><marquee><button type="button">Press, I will show you babe...</button></marquee></a> 
+</div>
+</body>
+</html>
