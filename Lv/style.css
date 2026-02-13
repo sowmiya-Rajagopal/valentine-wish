@@ -1,0 +1,20 @@
+/* Define the flower background pattern */
+ body {
+    background-color: pink; /* Replace with your image */
+
+  }
+  .image{
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center;    /* Centers items horizontally */
+  justify-content: center;
+  height: 100vh;
+  gap: 10px;  
+  }
+
+.image button {
+    
+  padding: 10px 20px;
+ cursor:pointer;
+}
+  
